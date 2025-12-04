@@ -10,3 +10,8 @@ spring:
     console:
       enabled: true
       path: /h2-console
+mybatis:
+  type-aliases-package: com.example.demo.entity
+  type-handlers-package: com.example.demo.typeHandler
+  configuration:
+    map-underscore-to-camel-case: true
